@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-details{
+    margin: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    box-shadow: 2px 5px 20px 3px rgba(212, 212, 208, 0.664);
+}
+
+.detail-section h2{
+    margin: 3rem 0 0 3rem;
+}
+
+.item-header-img{
+    width: 400px;
+}
+
+.item-header-img h3{
+    margin: 1rem 0;
+}
+.item-details img{
+    width: 400px;
+    height: auto;
+}
+
+.item-details-price ul li:first-of-type{
+    background: #ff183e;
+    color: white;
+    font-weight: 900;
+}
+
+.item-details-price ul{
+    list-style: none;
+    width: 30rem;
+}
+
+.item-details-price ul li{
+    padding: 1rem;
+    background: rgb(252, 252, 252);
+    border-bottom: 1px solid rgb(197, 196, 196);
+}
+
+.item-details-price ul li #total{
+    height: 2rem;
+}
+
+.add-item-to-cart-link {
+   margin-top: 1rem;
+   margin-left:2rem ;
+}
+
+.add-item-to-cart-link a{
+    text-decoration: none;
+}
+
+.add-item-to-cart-link .add-to-cart{
+    padding: 0.7rem 1rem;
+    border: 2px solid white;
+    background: white;
+    color: #ff183e;
+    border-radius: 30px;
+    font-weight: bolder;
+    box-shadow: 2px 5px 25px 6px #f8f8f8;
+}
+
+.add-item-to-cart-link .add-to-cart:hover{
+    transition:  ease-in-out 0.2s;
+    color: white;
+    background: #ff183e;
+    border: none;
+    box-shadow: 2px 5px 20px 3px #fd2f51;
+}
+
+.back-to-home{
+    margin-top: 1rem;
+}
+
+.check-out{
+    position: relative;
+    top: 70%;
+    left: 20%;
+    padding: 1rem 3rem;
+    background: black;
+    border: none;
+    font-weight: bolder;
+    border-radius: 30px;
+    box-shadow: 2px 5px 20px 3px rgb(190, 189, 189);
+}
+
+.check-out a{
+    color: white;
+    border: none;
+}
+
+.check-out:hover{
+    transform: translateY(-10px);
+    transition: all 0.2s ease-in-out 0.1s;
+    border-radius: 30px;
+}
+
+
+/* back-up button */
+
+.back-up{
+    position: fixed;
+    background: #ff1c42;
+    top: 93%;
+    left: 90%;
+    border-radius: 30px;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.back-up a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.back-up:hover{
+    transition: all 0.1s ease-in-out 0.1s;
+    transform: translateY(-9px);
+    box-shadow: 2px 5px 20px 3px rgba(212, 212, 208, 0.664);
+}

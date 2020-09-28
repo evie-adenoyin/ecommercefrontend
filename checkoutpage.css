@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.checkout-section{
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.checkout-table-list{
+    margin:2rem 2rem;
+    display: flex;
+    box-shadow: 2px 5px 20px 3px rgba(212, 212, 208, 0.664);
+    padding: 1rem;
+    height: auto;
+}
+
+.checkout-table-list table{
+    width: 60%;
+    padding: 3rem;
+    margin-top: 4rem;
+}
+
+.checkout-table-list table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.checkout-table-list table th{
+    background: rgb(59, 59, 59);
+    padding: 0.5rem;
+    color: white;
+}
+
+.checkout-table-list table td{
+    padding:0.5rem;
+    text-align: center;
+}
+
+.payment-method{
+    margin: 5rem 2rem;
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.payment-method h4{
+    margin-bottom: 1rem;
+}
+
+.payment-method h6{
+    margin-bottom: .5rem;
+}
+
+.payment-method label{
+    font-size: small;
+    margin:0.4rem;
+}
+
+.submit-payment{
+    float: right;
+    margin-top: 5rem;
+    padding: .9rem 2.5rem;
+    background: white;
+    color: #ff1c42;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 5px 20px 3px rgba(212, 212, 208, 0.664);
+}
+
+.submit-payment:hover{
+    transition:  ease-in-out 0.2s;
+    color: white;
+    background: #ff183e;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 5px 20px 3px #fd2f51;
+}
+
+
+/* back-to-product */
+
+.back-to-product{
+    margin:2rem;
+    margin-top: 5rem;
+    padding: .6rem 2.5rem;
+    background: white;
+    color: #ff1c42;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 5px 20px 3px rgba(212, 212, 208, 0.664);
+}
+
+.back-to-product button{
+    color: #ff183e;
+    border: none;
+    background: none;
+    font-weight: bolder;
+}
+
+.back-to-product:hover{
+    transition:  ease-in-out 0.2s;
+    color: white;
+    background: #ff183e;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 5px 20px 3px #fd2f51;
+}
+
+.back-to-product button:hover{
+    transition:  ease-in-out 0.2s;
+    color: white;
+    background: #ff183e;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 5px 20px 3px #fd2f51;
+}

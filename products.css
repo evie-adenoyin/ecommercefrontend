@@ -1,0 +1,140 @@
+
+/* section-for-list-of-products */
+.section-for-list-of-products{
+    width: 90%;
+    padding: 3rem;
+    margin: auto;
+}
+
+.product-list-filter-types{
+    display: flex;
+    background: rgb(48, 46, 46);
+    color: white;
+    padding: 1rem;
+}
+
+.product-list-filter-types .product-items{
+    margin: 1.5rem 1rem;
+   
+}
+
+.product-list-filter-types .product-items input{
+    margin: 0 0 .4rem 0;
+    background: transparent;
+    border:1px solid rgb(133, 126, 126);
+    color: rgb(133, 126, 126);
+    padding: 0.5rem;
+}
+
+.product-list-filter{
+    margin: 1.5rem 1rem;
+    font-weight: bolder;
+}
+
+.product-list-filter label{
+    margin-left: 1rem;
+}
+select{
+    padding: 0.3rem;
+    font-weight: bold;
+}
+
+
+/* LIST OF ITEMS */
+
+.new-arrival-header h3{
+    margin-left: 9rem;
+}
+.new-arrival-content-display{
+    margin-top: 5rem;
+    font-weight: bold;
+}
+
+.new-arrival-card-display{
+    display: flex;
+    justify-content: center;
+    margin-bottom:3rem ;
+}
+
+.new-arrival-card{
+    margin: 0 1rem;
+    padding: 1rem;
+    box-shadow: 2px 5px 20px 3px rgba(212, 212, 208, 0.664);
+}
+
+.new-arrival-card:hover{
+    transform: translateY(-20px);
+    transition: all 0.3s;
+    box-shadow: 2px 5px 40px 20px rgba(212, 212, 208, 0.664);
+}
+
+
+.new-arrival-card img{
+    width: 300px;
+}
+
+.new-arrival-details{
+    margin-top: 1rem;
+    line-height: 1.7rem;
+}
+.new-arrival-details small{
+    color: gray;
+}
+
+.new-arrival-details small .old-price{
+    text-decoration: line-through;
+   
+}
+
+.new-arrival-details small  .new-price{
+    color: #fd002e;
+}
+
+.new-arrival-details .Review{
+    float: right;
+    color: #ff1c42;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.new-arrival-details .add-to-cart {
+    background: transparent;
+    border: none;
+    color: #fd002e;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+.new-arrival-details .add-to-cart a:hover{
+    cursor: pointer;
+}
+
+.new-arrival-details #itm-qty{
+    width: 3rem;
+    padding: .1rem;
+}
+
+/* back-up button */
+
+.back-up{
+    position: fixed;
+    background: #ff1c42;
+    top: 93%;
+    left: 90%;
+    border-radius: 30px;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.back-up a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.back-up:hover{
+    transition: all 0.1s ease-in-out 0.1s;
+    transform: translateY(-9px);
+    box-shadow: 2px 5px 20px 3px rgba(212, 212, 208, 0.664);
+}
